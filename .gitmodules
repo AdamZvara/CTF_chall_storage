@@ -1,0 +1,3 @@
+[submodule "GPNCTF_2024/pwn/future-of-pwning-1/libraries"]
+	path = GPNCTF_2024/pwn/future-of-pwning-1/libraries
+	url = https://github.com/ForwardCom/libraries
