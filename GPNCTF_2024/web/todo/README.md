@@ -1,4 +1,4 @@
-<img width="383" alt="Untitled (1)" src="https://github.com/AdamZvara/CTF/assets/36104483/51c5c835-05f6-4870-8d12-f0d0b5511253"># Description
+# Description
 
 I made a JS API! Sadly I had no time to finish it :(
 
