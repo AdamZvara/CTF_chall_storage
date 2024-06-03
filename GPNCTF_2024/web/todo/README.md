@@ -44,7 +44,7 @@ app.post('/admin', async (req, res) => {
 
 And lastly we have the `/script.js` endpoint, which returns the contents of the `script.js` file and if cookie value
 is randomBytes (the same value is set in `/admin`!), it replaces the fake flag with the real one (in `script.js`).
-```
+```javascript
 app.get('/script.js', (req, res) => {
     res.type('.js');
     let response = script;
@@ -85,7 +85,7 @@ So the goal is to pass some code into the `/admin` endpoint to also access the `
 	   document.write(FlagAPI.valueOf());
    </script>
    ```
-2. another way to solve it is to redirect to the `/script.js` directly with `document.location.replace('/script.js
+2. another way to solve it is to redirect to the `/script.js` directly with `document.location.replace('/script.js')`
 
 Anyways, we get the flag:
 
