@@ -43,9 +43,11 @@ in order to do that, we must download the [libraries](https://github.com/Forward
 ```
 
 We can run it directly with the emulator which has been provided with the challenge (locally) to get the expected output.
+
 <img width="334" alt="Untitled" src="https://github.com/AdamZvara/CTF/assets/36104483/2cf355ce-63da-4ed7-b718-6dafeb1f5b2a">
 
 Another way is to use the website which runs it for you
+
 <img width="158" alt="Untitled (2)" src="https://github.com/AdamZvara/CTF/assets/36104483/799927bf-4225-48d8-bb68-decd10e42e79">
 
 Since the libraries offer most of normal unix functions (like fopen, fread and print) we can use calls to these functions to 
@@ -92,5 +94,6 @@ code end
 
 The only thing to look out for is when I tried to actually use the printf function it failed on the server side for some reason.
 Although it worked locally ... so I just switched to puts instead and got the result.
+
 <img width="282" alt="Untitled (1)" src="https://github.com/AdamZvara/CTF/assets/36104483/5554a0e4-e6e1-44bf-9769-09273886eda1">
 
